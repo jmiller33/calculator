@@ -3,16 +3,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #264653;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .display {
-    background-color: gray;
-    width: 400px;
-    height: 50px;
+    background-color: #2a9d8f;
+    width: 600px;
+    height: 100px;
     margin-top: 75px;
     text-align:end;
-    font-size: 36px;
+    font-size: 75px;
     align-items: center;
     justify-content: baseline;
     color:white;
@@ -23,8 +24,10 @@ body {
 }
 
 button {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 24px;
 }
 
 
@@ -40,6 +43,10 @@ button {
     gap: 25px;
 }
 
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #clear, #decimal {
+    background-color: #e9c46a;
+}
+
 .button-row {
     display: flex;
     gap: 25px;
@@ -51,6 +58,11 @@ button {
     gap: 25px;
 }
 
-.equals {
+#add, #subtract, #multiply, #divide {
+    background-color: #f4a261;
+}
+
+#equals {
     width: 275px !important;
+    background-color: #e76f51;
 }
